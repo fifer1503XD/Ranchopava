@@ -10565,19 +10565,6 @@ section#contact .section-heading {
   float: right;
 
 }
-.carousel-item {
-  height: 770px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width:1200px;
-  margin-left: 45px;
-  border-radius: 10%;
-  float: center;
-  
-}
 
 .containermenu{
   width: 100%;
@@ -10708,13 +10695,12 @@ body {
   color: hsla(0, 0%, 0%, .9);
   font: normal 140px Varela Round, sans-serif;
   height: 140px;
-  letter-spacing: 5px;
+  letter-spacing: -7px;
   text-align: center;
   text-transform: uppercase;
-  top: 50%;
-  width: 100%;
+  width: 90%;
   animation: move linear 2000ms infinite; 
-  margin-right: 20px; 
+ margin-left: 5%;
 }
 
 @keyframes move {
@@ -10835,3 +10821,8 @@ form input, form textarea{
 	background-color: #046193;
 }
 textarea { resize: none; }
+
+.menu{
+  width: 100%;
+  border-radius: 10%;
+}
